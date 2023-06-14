@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/fe4561a24f.js" crossorigin="anonymous"></script>
+</head>
+<body class="font-Lato bg-slate-50">
+    <nav class="py-8 w-full flex justify-between absolute px-32" data-aos="fade-down" data-aos-duration="900">
+        <div class="flex items-center">
+            <img src="../assets/lskk.png" alt="" class="w-8 h-10 mr-2">
+            <span class="text-2xl font-semibold">IWK</span>
+            <a href="#" class="transition ml-20 hover:text-gray-600">Home</a>
+            <a href="#product" class="transition mx-4 hover:text-gray-600">Product</a>
+            <a href="#reviews" class="transition mx-2 mr-12 hover:text-gray-600">Reviews</a>
+        </div>
+        <div class="flex items-center gap-6">
+            <a href="https://www.tokopedia.com/lskkstore/etalase/iot-workshop-kit" target="_blank" class="transition border rounded-3xl px-4 py-2 text-black bg-transparent border-gray-800 hover:border-white hover:text-white hover:bg-gray-800">Shop Now <i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </nav>
+    <section class="w-full flex h-[100vh] items-center px-32">
+        <div class="cursor-default w-1/2 flex flex-col justify-center h-1/2">
+            <h1 class="text-8xl" data-aos="fade-left" data-aos-duration="1000">IWK - </h1>
+            <h1 class="text-8xl" data-aos="fade-left" data-aos-duration="1000">TRAINER KIT</h1>
+            <h5 class="text-gray-500 mb-5" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">mendukung kegiatan pelatihan, pengenalan materi, dan Pendidikan.</h5>
+            <a href="#about" class="py-6 px-8 border border-gray-800 rounded-2xl flex justify-between w-2/3 items-center hover:bg-gray-800 hover:text-white transition" data-aos="zoom-out-up" data-aos-duration="600" data-aos-delay="200"><span>Get Started </span><i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="w-1/2 bg-slate-200 rounded-2xl flex justify-center h-1/2" data-aos="fade" data-aos-duration="1600" data-aos-delay="450">
+            <img src="../assets/robot.png" alt="">
+        </div>
+    </section>
+    <section class="h-auto w-full px-32 py-16 pb-32 my-16 rounded-[50px]" id="about">
+        <div class="w-full flex flex-col items-center" data-aos="fade-up" data-aos-duration="500">
+            <h1 class="text-2xl flex items-center gap-2 mb-10 border px-5 rounded-lg"><div class="w-5 h-5 bg-amber-950 rounded-full"></div>ABOUT</h1>
+            <h1 class="text-4xl text-center w-2/3">IWK Trainer KIT merupakan alat yang dipergunakan guna mendukung kegiatan pelatihan, pengenalan materi, dan Pendidikan.
+            </h1>
+        </div>
+    </section>
+    <section class="h-auto bg-black text-white px-32 py-32" id="product"  data-aos="fade-up" data-aos-duration="500">
+        <div class="" >
+            <div class="flex w-full justify-between" data-aos="fade-right" data-aos-duration="1000">
+                <h1 class="text-2xl flex items-center gap-2 mb-10 px-5 " ><div class="w-5 h-5 bg-white rounded-full" ></div>OUR PRODUCT</h1>
+                <h1 class="text-2xl flex items-center gap-2 mb-10 px-5 ">Available at : <a href="https://www.tokopedia.com/lskkstore/etalase/iot-workshop-kit" target="_blank"><img src="../assets/ijo.png" alt="" class="w-30 h-10"></a></h1>
+            </div>
+            <div class="text-black flex gap-16 mb-16 w-full" data-aos="fade-left" data-aos-duration="1000">
+                <div class="w-1/2 h-auto min-h-[400px] bg-slate-100 rounded-3xl p-10 flex flex-col justify-between " >
+                    <h1 class="text-2xl font-semibold">IWK - Home Auto</h1>
+                    <div class="flex text-justify gap-10">
+                        <p class="w-2/3">Home Automation adalah sebuah system yang digunakan untuk mengontrol atau memonitoring sebuah perangkat didalam rumah secara otomatis. Serta dirancang untuk menyimpan data komunikasi yang terjadi dan nantinya bisa menjadi acuan untuk memonitoring perangkat.
+                        </p>
+                        <div class="w-1/3 bg-slate-200 rounded-2xl">
+                            <img src="../assets/home-auto.png" alt="" class="w-auto h-52">
+                        </div>
+                    </div>
+                    <a href="" class="border py-2 px-4 w-full flex items-center justify-between rounded-2xl border-gray-800 transition hover:bg-black hover:text-white ">View More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="w-1/2 h-auto min-h-[400px] bg-slate-100 rounded-3xl p-10 flex flex-col justify-between ">
+                    <h1 class="text-2xl font-semibold">IWK - Smart Card Saga</h1>
+                    <div class="flex text-justify gap-10">
+                        <p class="w-2/3">Teknologi Smart Card Saga menyajikan data para personil dengan akurat seperti waktu kehadiran dan status kehadiran. Setiap personal akan mendapatkan ID Card yang akan digunakan untuk tap-ing ke sensor RFID lalu data yang sudah terbaca akan dikirimkan ke server dan data base untuk kemudian dicocokan dengan data yang ada.
+                        </p>
+                        <div class="w-1/3 bg-slate-200 rounded-2xl">
+                            <img src="../assets/smart-card.png" alt="" class="w-auto h-52">
+                        </div>
+                    </div>
+                    <a href="" class="border py-2 px-4 w-full flex items-center justify-between rounded-2xl border-gray-800 transition hover:bg-black hover:text-white ">View More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="text-black flex gap-16 mb-16 w-full" data-aos="fade-left" data-aos-duration="1000">
+                <div class="w-1/2 h-auto min-h-[400px] bg-slate-100 rounded-3xl p-10 flex flex-col justify-between ">
+                    <h1 class="text-2xl font-semibold">IWK - Environmetal Sensor</h1>
+                    <div class="flex text-justify gap-10">
+                        <p class="w-2/3">Environmental Sensor merupakan sebuah alat yang memanfaatkan teknologi IoT dalam pengaplikasiannya. Alat ini akan berfungsi untuk memonitoring atau memantau suhu pada ruangan tertentu. 
+                        </p>
+                        <div class="w-1/3 bg-slate-200 rounded-2xl">
+                            <img src="../assets/env-sensor.png" alt="" class="w-auto h-52">
+                        </div>
+                    </div>
+                    <a href="" class="border py-2 px-4 w-full flex items-center justify-between rounded-2xl border-gray-800 transition hover:bg-black hover:text-white ">View More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="w-1/2 h-auto min-h-[400px] bg-slate-100 rounded-3xl p-10 flex flex-col justify-between ">
+                    <h1 class="text-2xl font-semibold">IWK - Robotic Flex Sensor</h1>
+                    <div class="flex text-justify gap-10">
+                        <p class="w-2/3">IWK Robotic Flex Sensor merupakansuatu alat yang berfungsi untuk mendeteksi suatu kelengkungan sama seperti prinsip pada potensio. Parameter sensor ini memiliki nilai resistensi sehingga semakin melengkung sensornya, maka semakin besar juga nilai resistensi yang dihasilkan.
+                        </p>
+                        <div class="w-1/3 bg-slate-200 rounded-2xl">
+                            <img src="../assets/robot-sensor.png" alt="" class="w-auto h-52">
+                        </div>
+                    </div>
+                    <a href="" class="border py-2 px-4 w-full flex items-center justify-between rounded-2xl border-gray-800 transition hover:bg-black hover:text-white ">View More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="text-black flex gap-16 w-full" data-aos="fade-left" data-aos-duration="1000">
+                <div class="w-1/2 h-auto min-h-[400px] bg-slate-100 rounded-3xl p-10 flex flex-col justify-between ">
+                    <h1 class="text-2xl font-semibold">IWK - Smart Watering</h1>
+                    <div class="flex text-justify gap-10">
+                        <p class="w-2/3">Smart Watering merupakan suatu alat (device) yang dapat mempermudah untuk penyiraman tanaman secara otomatis dengan menggunakan dua perangkat utama yaitu sensor dan actuator. Perangkat sensor memiliki fungsi sebagai input dan Actator sebagai output.
+                        </p>
+                        <div class="w-1/3 bg-slate-200 rounded-2xl">
+                            <img src="../assets/watering.png" alt="" class="w-auto h-52">
+                        </div>
+                    </div>
+                    <a href="" class="border py-2 px-4 w-full flex items-center justify-between rounded-2xl border-gray-800 transition hover:bg-black hover:text-white ">View More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="w-1/2 h-auto min-h-[400px] bg-slate-100 rounded-3xl p-10 flex flex-col justify-between ">
+                    <h1 class="text-2xl font-semibold">IWK - Center Of Gravity</h1>
+                    <div class="flex text-justify gap-10">
+                        <p class="w-2/3">Center of Gravity merupakan perangkat yang dapat mendeteksi suatu beban di atasnya. IWK Center of Gravity dirancang agar lebih mudah untuk mempelajari cara kerja dari Center of Gravity yang telah terhubung ke jaringan internet dan juga dapat merakit perangkat Center of Gravity.
+                        </p>
+                        <div class="w-1/3 bg-slate-200 rounded-2xl">
+                            <img src="../assets/gravity.png" alt="" class="w-auto h-52">
+                        </div>
+                    </div>
+                    <a href="" class="border py-2 px-4 w-full flex items-center justify-between rounded-2xl border-gray-800 transition hover:bg-black hover:text-white ">View More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="h-auto w-full flex flex-col items-center my-20">
+        <div class="w-full flex flex-col items-center py-32" id="reviews" data-aos="fade-up" data-aos-duration="500">
+            <h1 class="text-2xl flex items-center gap-2 mb-10 border px-5 rounded-lg"><div class="w-5 h-5 bg-yellow-500 rounded-full"></div>TESTIMONIAL</h1>
+            <h1 class="text-4xl text-center w-2/3">What our customers say about us
+            </h1>
+        </div>
+        <div class="w-[80%] flex justify-center h-[300px] gap-8 " data-aos="flip-up" data-aos-duration="800">
+            <div class="flex flex-col justify-between gap-2">
+                <img src="../assets/kang-asep.jpg" alt="" class="w-52 h-[70%] rounded-2xl">
+                <div class="w-52 h-[20%] bg-yellow-400 rounded-2xl flex items-center justify-center">
+                    <h1 class="text-xl font-semibold text-center">Asep Trisna</h1>
+                </div>
+                <div class="w-52 h-[10%] bg-yellow-400 rounded-2xl flex items-center justify-center py-4">
+                    <h1 class="text-xl font-semibold text-center">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </h1>
+                </div>
+            </div>
+            <div class="w-2/3 h-auto bg-slate-200 rounded-2xl p-20 flex flex-col justify-between">
+                <h1 class="text-4xl"><i class="fa-sharp fa-solid fa-quote-right"></i></h1>
+                <p class="text-2xl">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti iusto impedit placeat deserunt voluptatum! Itaque maiores cumque ipsa optio non."</p>
+            </div>
+        </div>
+        <div class="w-[80%] flex flex-row-reverse justify-center h-[300px] gap-8 mt-16" data-aos="flip-up" data-aos-duration="800">
+            <div class="flex flex-col justify-between gap-2">
+                <img src="../assets/reviews.jpg" alt="" class="w-52 h-[70%] rounded-2xl">
+                <div class="w-52 h-[20%] bg-yellow-400 rounded-2xl flex items-center justify-center">
+                    <h1 class="text-xl font-semibold text-center">Afanin Ryandana</h1>
+                </div>
+                <div class="w-52 h-[10%] bg-yellow-400 rounded-2xl flex items-center justify-center py-4">
+                    <h1 class="text-xl font-semibold text-center">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </h1>
+                </div>
+            </div>
+            <div class="w-2/3 bg-slate-200 rounded-2xl p-20 flex flex-col justify-between">
+                <h1 class="text-4xl text-right"><i class="fa-sharp fa-solid fa-quote-right"></i></h1>
+                <p class="text-2xl">"Beatae sapiente mollitia nam! Libero quo, odio laboriosam cupiditate corrupti commodi perspiciatis delectus mollitia at fugit ratione ab eos aspernatur nobis nisi id quidem tempora saepe."</p>
+            </div>
+        </div>
+    </section>
+    <footer class="px-32 w-full bg-gray-800 text-white rounded-t-3xl mt-96" data-aos="fade-up" data-aos-duration="500">
+        <div class=" flex justify-between py-16">
+            <div class="flex items-center w-1/2 justify-center">
+                <img src="../assets/lskk.png" alt="" class="w-8 h-10 mr-2">      
+                <span class="text-2xl">IWK - Trainer Kit</span>      
+            </div>
+            <div class="w-1/2 flex flex-col items-center">
+                <Span class="text-2xl">Contact us</Span>
+                <p class="text-xl">Jl. Pelajar Pejuang 45 No, 65 Bandung</p>
+            </div>
+        </div>
+        <div class="text-center mt-10 py-4" >
+            <h1 class="text-xl">© Copyright PT. LSKK. All Rights Reserved</h1>
+        </div>
+    </footer>
+</body>
+<script>
+    AOS.init();
+</script>
+</html>
